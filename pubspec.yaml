@@ -1,0 +1,33 @@
+name: sirmo_app
+description: "Aplikasi Sistem Informasi Rekam Medis dan Obat (SIRMO)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Package tambahan untuk kebutuhan SIRMO
+  http: ^1.2.0              # Untuk request API ke backend XAMPP
+  shared_preferences: ^2.2.2 # Untuk menyimpan session login & id_klinik
+  file_picker: ^11.0.2
+  url_launcher: ^6.2.1
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  printing: ^5.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Hapus tanda pagar (#) di bawah ini nanti kalau mau masukin logo/gambar
+  # assets:
+  #   - assets/images/
