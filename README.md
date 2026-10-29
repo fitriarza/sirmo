@@ -1,6 +1,6 @@
 # SIRMO — Medical Records and Medication Information System
 
-**SIRMO** is an Android-based information system designed to help small outpatient clinics manage patient data, digital medical records, and medication information.
+SIRMO is an Android-based information system designed to help small outpatient clinics manage patient data, digital medical records, and medication information.
 
 This project was developed as a final-year project for the Diploma III in Informatics Engineering program at Politeknik Negeri Bengkalis.
 
@@ -10,41 +10,49 @@ This project was developed as a final-year project for the Diploma III in Inform
 - **Patient Management:** Manage and view patient information.
 - **Digital Medical Records:** Record patient complaints, diagnoses, vital signs, and medical actions.
 - **Medical History:** Access previous medical records and health history.
-- **Medication Management:** Manage medication information, prescriptions, and dosage records.
-- **Medical Certificate:** Generate and download medical certificates.
+- **Medication Management:** Manage medication information and records.
+- **Medical Certificate:** Generate medical certificates.
 - **Patient Dashboard:** Allow patients to view their medical information and health history.
-- **Self-Reported Medical Records:** Allow patients to record their own medication and treatment history.
 - **Super Admin:** Manage clinic information and validate clinic accounts.
 
 ## Screenshots
 
-### 1. Login
-
-![SIRMO Login](screenshots/login.png)
-
-### 2. Healthcare Worker Dashboard
-
-![Healthcare Worker Dashboard](screenshots/dashboard-nakes.png)
-
-### 3. Patient Management
-
-![Patient Management](screenshots/daftar-pasien.png)
-
-### 4. Medical Record Input
-
-![Medical Record Input](screenshots/input-rekam-medis.png)
-
-### 5. Patient Dashboard
-
-![Patient Dashboard](screenshots/dashboard-pasien.png)
-
-### 6. Super Admin Dashboard
-
-![Super Admin Dashboard](screenshots/dashboard-admin.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Login</strong><br><br>
+      <img src="screenshots/login.png" width="180" alt="SIRMO Login">
+    </td>
+    <td align="center" width="50%">
+      <strong>Healthcare Worker Dashboard</strong><br><br>
+      <img src="screenshots/dashboard-nakes.png" width="180" alt="Healthcare Worker Dashboard">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Patient Management</strong><br><br>
+      <img src="screenshots/daftar-pasien.png" width="180" alt="Patient Management">
+    </td>
+    <td align="center" width="50%">
+      <strong>Medical Record Input</strong><br><br>
+      <img src="screenshots/input-rekam-medis.png" width="180" alt="Medical Record Input">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Patient Dashboard</strong><br><br>
+      <img src="screenshots/dashboard-pasien.png" width="180" alt="Patient Dashboard">
+    </td>
+    <td align="center" width="50%">
+      <strong>Super Admin Dashboard</strong><br><br>
+      <img src="screenshots/dashboard-admin.png" width="180" alt="Super Admin Dashboard">
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 
-- **Mobile Application:** Flutter, Dart
+- **Mobile Application:** Flutter and Dart
 - **Backend:** PHP Native
 - **API:** REST API
 - **Database:** MySQL
@@ -52,16 +60,16 @@ This project was developed as a final-year project for the Diploma III in Inform
 
 ## Development Methodology
 
-This project was developed using the Waterfall methodology, covering requirements analysis, system design, implementation, testing, and maintenance planning.
+This project was developed using the Waterfall methodology, including requirements analysis, system design, implementation, testing, and maintenance planning.
 
 ## Testing
 
-Based on the final project report:
+According to the final project report:
 
 - **REST API Testing:** 12 endpoints were tested successfully.
 - **Black Box Testing:** 17 main features were tested, with a reported 100% success rate.
 
-These results are based on the testing documented in the final project report.
+These results are based on the tests documented in the final project report.
 
 ## Project Information
 
@@ -73,7 +81,7 @@ These results are based on the testing documented in the final project report.
 - **Program:** Diploma III in Informatics Engineering
 - **Year:** 2026
 
-## Development Purpose
+## Project Purpose
 
 SIRMO was developed as an academic final-year project to support the digitalization of medical record management and medication information in small outpatient clinics.
 
