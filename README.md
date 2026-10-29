@@ -8,23 +8,47 @@ This project was developed as a final-year project for the Diploma III in Inform
 
 - **Authentication:** User login and registration.
 - **Patient Management:** Manage and view patient information.
-- **Digital Medical Records:** Record patient complaints, diagnoses, and medical actions.
-- **Medical History:** Access previous medical records.
-- **Medication Information:** Manage medication references and records.
-- **Medical Certificate:** Generate medical certificates.
-- **Patient Dashboard:** Allow patients to view their own medical information.
-- **Super Admin:** Validate clinic accounts.
+- **Digital Medical Records:** Record patient complaints, diagnoses, vital signs, and medical actions.
+- **Medical History:** Access previous medical records and health history.
+- **Medication Management:** Manage medication information, prescriptions, and dosage records.
+- **Medical Certificate:** Generate and download medical certificates.
+- **Patient Dashboard:** Allow patients to view their medical information and health history.
+- **Self-Reported Medical Records:** Allow patients to record their own medication and treatment history.
+- **Super Admin:** Manage clinic information and validate clinic accounts.
 
 ## Screenshots
 
-<!-- Screenshots will be added here -->
+### 1. Login
+
+![SIRMO Login](screenshots/login.png)
+
+### 2. Healthcare Worker Dashboard
+
+![Healthcare Worker Dashboard](screenshots/dashboard-nakes.png)
+
+### 3. Patient Management
+
+![Patient Management](screenshots/daftar-pasien.png)
+
+### 4. Medical Record Input
+
+![Medical Record Input](screenshots/input-rekam-medis.png)
+
+### 5. Patient Dashboard
+
+![Patient Dashboard](screenshots/dashboard-pasien.png)
+
+### 6. Super Admin Dashboard
+
+![Super Admin Dashboard](screenshots/dashboard-admin.png)
 
 ## Tech Stack
 
 - **Mobile Application:** Flutter, Dart
-- **Backend:** PHP Native, REST API
+- **Backend:** PHP Native
+- **API:** REST API
 - **Database:** MySQL
-- **Design:** UI/UX Design, Figma
+- **UI/UX Design:** Figma
 
 ## Development Methodology
 
@@ -34,8 +58,10 @@ This project was developed using the Waterfall methodology, covering requirement
 
 Based on the final project report:
 
-- REST API testing: 12 endpoints tested successfully.
-- Black Box Testing: 17 main features tested, with a reported 100% success rate.
+- **REST API Testing:** 12 endpoints were tested successfully.
+- **Black Box Testing:** 17 main features were tested, with a reported 100% success rate.
+
+These results are based on the testing documented in the final project report.
 
 ## Project Information
 
@@ -44,7 +70,12 @@ Based on the final project report:
 - **Target Users:** Healthcare workers, patients, and super administrators
 - **Developer:** Fitri Rahmatullah Arza
 - **Institution:** Politeknik Negeri Bengkalis
+- **Program:** Diploma III in Informatics Engineering
 - **Year:** 2026
+
+## Development Purpose
+
+SIRMO was developed as an academic final-year project to support the digitalization of medical record management and medication information in small outpatient clinics.
 
 ## Notes
 
